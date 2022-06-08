@@ -18,3 +18,4 @@ use App\Http\Controllers\MessageController;
 
 Route::get('/messages', [MessageController::class, 'showAll']);
 
+Route::post('/create', [MessageController::class, 'create']);
